@@ -1,0 +1,603 @@
+id,country_name,region,flight
+1,USA,us_east,< 3h
+2,Canada,us_east,< 3h
+3,Mexico,us_east,3 to 6h
+4,Brazil,us_east,6 to 10h
+5,Argentina,us_east,> 10h
+6,Dominican Republic,us_east,3 to 6h
+7,Peru,us_east,> 10h
+8,Cuba,us_east,3 to 6h
+9,Iceland,us_east,6 to 10h
+10,"UK, Ireland",us_east,6 to 10h
+11,Denmark,us_east,6 to 10h
+12,France,us_east,6 to 10h
+13,Spain,us_east,6 to 10h
+14,Portugal,us_east,6 to 10h
+15,Italy,us_east,6 to 10h
+16,Greece,us_east,6 to 10h
+17,Czech Republic,us_east,6 to 10h
+18,Belgium,us_east,6 to 10h
+19,Turkey,us_east,> 10h
+20,Jordan,us_east,> 10h
+21,U.A.E,us_east,> 10h
+22,Egypt,us_east,> 10h
+23,Tanzania,us_east,> 10h
+24,Kenya,us_east,> 10h
+25,Seychelles,us_east,> 10h
+26,Madagascar,us_east,> 10h
+27,South Africa,us_east,> 10h
+28,Morocco,us_east,> 10h
+29,China,us_east,> 10h
+30,India,us_east,> 10h
+31,Nepal,us_east,> 10h
+32,Thailand,us_east,> 10h
+33,Vietnam,us_east,> 10h
+34,Australia,us_east,> 10h
+35,New Zealand,us_east,> 10h
+36,Japan,us_east,> 10h
+37,Indonesia,us_east,> 10h
+38,Cambodia,us_east,> 10h
+39,Netherlands,us_east,6 to 10h
+40,Finland,us_east,6 to 10h
+41,Norway,us_east,6 to 10h
+42,Sweden,us_east,6 to 10h
+43,Croatia,us_east,6 to 10h
+44,USA,us_central,< 3h
+45,Canada,us_central,< 3h
+46,Mexico,us_central,3 to 6h
+47,Brazil,us_central,6 to 10h
+48,Argentina,us_central,> 10h
+49,Dominican Republic,us_central,3 to 6h
+50,Peru,us_central,> 10h
+51,Cuba,us_central,3 to 6h
+52,Iceland,us_central,> 10h
+53,"UK, Ireland",us_central,> 10h
+54,Denmark,us_central,> 10h
+55,France,us_central,> 10h
+56,Spain,us_central,> 10h
+57,Portugal,us_central,> 10h
+58,Italy,us_central,> 10h
+59,Greece,us_central,> 10h
+60,Czech Republic,us_central,> 10h
+61,Belgium,us_central,> 10h
+62,Turkey,us_central,> 10h
+63,Jordan,us_central,> 10h
+64,U.A.E,us_central,> 10h
+65,Egypt,us_central,> 10h
+66,Tanzania,us_central,> 10h
+67,Kenya,us_central,> 10h
+68,Seychelles,us_central,> 10h
+69,Madagascar,us_central,> 10h
+70,South Africa,us_central,> 10h
+71,Morocco,us_central,> 10h
+72,China,us_central,> 10h
+73,India,us_central,> 10h
+74,Nepal,us_central,> 10h
+75,Thailand,us_central,> 10h
+76,Vietnam,us_central,> 10h
+77,Australia,us_central,> 10h
+78,New Zealand,us_central,> 10h
+79,Japan,us_central,> 10h
+80,Indonesia,us_central,> 10h
+81,Cambodia,us_central,> 10h
+82,Netherlands,us_central,> 10h
+83,Finland,us_central,> 10h
+84,Norway,us_central,> 10h
+85,Sweden,us_central,> 10h
+86,Croatia,us_central,> 10h
+87,USA,us_mountain,< 3h
+88,Canada,us_mountain,< 3h
+89,Mexico,us_mountain,3 to 6h
+90,Brazil,us_mountain,> 10h
+91,Argentina,us_mountain,> 10h
+92,Dominican Republic,us_mountain,3 to 6h
+93,Peru,us_mountain,> 10h
+94,Cuba,us_mountain,3 to 6h
+95,Iceland,us_mountain,> 10h
+96,"UK, Ireland",us_mountain,> 10h
+97,Denmark,us_mountain,> 10h
+98,France,us_mountain,> 10h
+99,Spain,us_mountain,> 10h
+100,Portugal,us_mountain,> 10h
+101,Italy,us_mountain,> 10h
+102,Greece,us_mountain,> 10h
+103,Czech Republic,us_mountain,> 10h
+104,Belgium,us_mountain,> 10h
+105,Turkey,us_mountain,> 10h
+106,Jordan,us_mountain,> 10h
+107,U.A.E,us_mountain,> 10h
+108,Egypt,us_mountain,> 10h
+109,Tanzania,us_mountain,> 10h
+110,Kenya,us_mountain,> 10h
+111,Seychelles,us_mountain,> 10h
+112,Madagascar,us_mountain,> 10h
+113,South Africa,us_mountain,> 10h
+114,Morocco,us_mountain,> 10h
+115,China,us_mountain,> 10h
+116,India,us_mountain,> 10h
+117,Nepal,us_mountain,> 10h
+118,Thailand,us_mountain,> 10h
+119,Vietnam,us_mountain,> 10h
+120,Australia,us_mountain,> 10h
+121,New Zealand,us_mountain,> 10h
+122,Japan,us_mountain,> 10h
+123,Indonesia,us_mountain,> 10h
+124,Cambodia,us_mountain,> 10h
+125,Netherlands,us_mountain,> 10h
+126,Finland,us_mountain,> 10h
+127,Norway,us_mountain,> 10h
+128,Sweden,us_mountain,> 10h
+129,Croatia,us_mountain,> 10h
+130,USA,us_pacific,< 3h
+131,Canada,us_pacific,< 3h
+132,Mexico,us_pacific,3 to 6h
+133,Brazil,us_pacific,> 10h
+134,Argentina,us_pacific,> 10h
+135,Dominican Republic,us_pacific,3 to 6h
+136,Peru,us_pacific,> 10h
+137,Cuba,us_pacific,3 to 6h
+138,Iceland,us_pacific,> 10h
+139,"UK, Ireland",us_pacific,> 10h
+140,Denmark,us_pacific,> 10h
+141,France,us_pacific,> 10h
+142,Spain,us_pacific,> 10h
+143,Portugal,us_pacific,> 10h
+144,Italy,us_pacific,> 10h
+145,Greece,us_pacific,> 10h
+146,Czech Republic,us_pacific,> 10h
+147,Belgium,us_pacific,> 10h
+148,Turkey,us_pacific,> 10h
+149,Jordan,us_pacific,> 10h
+150,U.A.E,us_pacific,> 10h
+151,Egypt,us_pacific,> 10h
+152,Tanzania,us_pacific,> 10h
+153,Kenya,us_pacific,> 10h
+154,Seychelles,us_pacific,> 10h
+155,Madagascar,us_pacific,> 10h
+156,South Africa,us_pacific,> 10h
+157,Morocco,us_pacific,> 10h
+158,China,us_pacific,> 10h
+159,India,us_pacific,> 10h
+160,Nepal,us_pacific,> 10h
+161,Thailand,us_pacific,> 10h
+162,Vietnam,us_pacific,> 10h
+163,Australia,us_pacific,> 10h
+164,New Zealand,us_pacific,> 10h
+165,Japan,us_pacific,> 10h
+166,Indonesia,us_pacific,> 10h
+167,Cambodia,us_pacific,> 10h
+168,Netherlands,us_pacific,> 10h
+169,Finland,us_pacific,> 10h
+170,Norway,us_pacific,> 10h
+171,Sweden,us_pacific,> 10h
+172,Croatia,us_pacific,> 10h
+173,USA,canada_east,< 3h
+174,Canada,canada_east,< 3h
+175,Mexico,canada_east,3 to 6h
+176,Brazil,canada_east,6 to 10h
+177,Argentina,canada_east,> 10h
+178,Dominican Republic,canada_east,3 to 6h
+179,Peru,canada_east,> 10h
+180,Cuba,canada_east,3 to 6h
+181,Iceland,canada_east,6 to 10h
+182,"UK, Ireland",canada_east,6 to 10h
+183,Denmark,canada_east,6 to 10h
+184,France,canada_east,6 to 10h
+185,Spain,canada_east,6 to 10h
+186,Portugal,canada_east,6 to 10h
+187,Italy,canada_east,6 to 10h
+188,Greece,canada_east,6 to 10h
+189,Czech Republic,canada_east,6 to 10h
+190,Belgium,canada_east,6 to 10h
+191,Turkey,canada_east,> 10h
+192,Jordan,canada_east,> 10h
+193,U.A.E,canada_east,> 10h
+194,Egypt,canada_east,> 10h
+195,Tanzania,canada_east,> 10h
+196,Kenya,canada_east,> 10h
+197,Seychelles,canada_east,> 10h
+198,Madagascar,canada_east,> 10h
+199,South Africa,canada_east,> 10h
+200,Morocco,canada_east,> 10h
+201,China,canada_east,> 10h
+202,India,canada_east,> 10h
+203,Nepal,canada_east,> 10h
+204,Thailand,canada_east,> 10h
+205,Vietnam,canada_east,> 10h
+206,Australia,canada_east,> 10h
+207,New Zealand,canada_east,> 10h
+208,Japan,canada_east,> 10h
+209,Indonesia,canada_east,> 10h
+210,Cambodia,canada_east,> 10h
+211,Netherlands,canada_east,6 to 10h
+212,Finland,canada_east,6 to 10h
+213,Norway,canada_east,6 to 10h
+214,Sweden,canada_east,6 to 10h
+215,Croatia,canada_east,6 to 10h
+216,USA,canada_central,< 3h
+217,Canada,canada_central,< 3h
+218,Mexico,canada_central,3 to 6h
+219,Brazil,canada_central,> 10h
+220,Argentina,canada_central,> 10h
+221,Dominican Republic,canada_central,3 to 6h
+222,Peru,canada_central,> 10h
+223,Cuba,canada_central,3 to 6h
+224,Iceland,canada_central,> 10h
+225,"UK, Ireland",canada_central,> 10h
+226,Denmark,canada_central,> 10h
+227,France,canada_central,> 10h
+228,Spain,canada_central,> 10h
+229,Portugal,canada_central,> 10h
+230,Italy,canada_central,> 10h
+231,Greece,canada_central,> 10h
+232,Czech Republic,canada_central,> 10h
+233,Belgium,canada_central,> 10h
+234,Turkey,canada_central,> 10h
+235,Jordan,canada_central,> 10h
+236,U.A.E,canada_central,> 10h
+237,Egypt,canada_central,> 10h
+238,Tanzania,canada_central,> 10h
+239,Kenya,canada_central,> 10h
+240,Seychelles,canada_central,> 10h
+241,Madagascar,canada_central,> 10h
+242,South Africa,canada_central,> 10h
+243,Morocco,canada_central,> 10h
+244,China,canada_central,> 10h
+245,India,canada_central,> 10h
+246,Nepal,canada_central,> 10h
+247,Thailand,canada_central,> 10h
+248,Vietnam,canada_central,> 10h
+249,Australia,canada_central,> 10h
+250,New Zealand,canada_central,> 10h
+251,Japan,canada_central,> 10h
+252,Indonesia,canada_central,> 10h
+253,Cambodia,canada_central,> 10h
+254,Netherlands,canada_central,> 10h
+255,Finland,canada_central,> 10h
+256,Norway,canada_central,> 10h
+257,Sweden,canada_central,> 10h
+258,Croatia,canada_central,> 10h
+259,USA,canada_pacific,< 3h
+260,Canada,canada_pacific,< 3h
+261,Mexico,canada_pacific,3 to 6h
+262,Brazil,canada_pacific,> 10h
+263,Argentina,canada_pacific,> 10h
+264,Dominican Republic,canada_pacific,3 to 6h
+265,Peru,canada_pacific,> 10h
+266,Cuba,canada_pacific,3 to 6h
+267,Iceland,canada_pacific,> 10h
+268,"UK, Ireland",canada_pacific,> 10h
+269,Denmark,canada_pacific,> 10h
+270,France,canada_pacific,> 10h
+271,Spain,canada_pacific,> 10h
+272,Portugal,canada_pacific,> 10h
+273,Italy,canada_pacific,> 10h
+274,Greece,canada_pacific,> 10h
+275,Czech Republic,canada_pacific,> 10h
+276,Belgium,canada_pacific,> 10h
+277,Turkey,canada_pacific,> 10h
+278,Jordan,canada_pacific,> 10h
+279,U.A.E,canada_pacific,> 10h
+280,Egypt,canada_pacific,> 10h
+281,Tanzania,canada_pacific,> 10h
+282,Kenya,canada_pacific,> 10h
+283,Seychelles,canada_pacific,> 10h
+284,Madagascar,canada_pacific,> 10h
+285,South Africa,canada_pacific,> 10h
+286,Morocco,canada_pacific,> 10h
+287,China,canada_pacific,> 10h
+288,India,canada_pacific,> 10h
+289,Nepal,canada_pacific,> 10h
+290,Thailand,canada_pacific,> 10h
+291,Vietnam,canada_pacific,> 10h
+292,Australia,canada_pacific,> 10h
+293,New Zealand,canada_pacific,> 10h
+294,Japan,canada_pacific,> 10h
+295,Indonesia,canada_pacific,> 10h
+296,Cambodia,canada_pacific,> 10h
+297,Netherlands,canada_pacific,> 10h
+298,Finland,canada_pacific,> 10h
+299,Norway,canada_pacific,> 10h
+300,Sweden,canada_pacific,> 10h
+301,Croatia,canada_pacific,> 10h
+302,USA,LATAM,3 to 6h
+303,Canada,LATAM,3 to 6h
+304,Mexico,LATAM,< 3h
+305,Brazil,LATAM,< 3h
+306,Argentina,LATAM,< 3h
+307,Dominican Republic,LATAM,< 3h
+308,Peru,LATAM,< 3h
+309,Cuba,LATAM,< 3h
+310,Iceland,LATAM,> 10h
+311,"UK, Ireland",LATAM,> 10h
+312,Denmark,LATAM,> 10h
+313,France,LATAM,> 10h
+314,Spain,LATAM,> 10h
+315,Portugal,LATAM,> 10h
+316,Italy,LATAM,> 10h
+317,Greece,LATAM,> 10h
+318,Czech Republic,LATAM,> 10h
+319,Belgium,LATAM,> 10h
+320,Turkey,LATAM,> 10h
+321,Jordan,LATAM,> 10h
+322,U.A.E,LATAM,> 10h
+323,Egypt,LATAM,> 10h
+324,Tanzania,LATAM,> 10h
+325,Kenya,LATAM,> 10h
+326,Seychelles,LATAM,> 10h
+327,Madagascar,LATAM,> 10h
+328,South Africa,LATAM,> 10h
+329,Morocco,LATAM,> 10h
+330,China,LATAM,> 10h
+331,India,LATAM,> 10h
+332,Nepal,LATAM,> 10h
+333,Thailand,LATAM,> 10h
+334,Vietnam,LATAM,> 10h
+335,Australia,LATAM,> 10h
+336,New Zealand,LATAM,> 10h
+337,Japan,LATAM,> 10h
+338,Indonesia,LATAM,> 10h
+339,Cambodia,LATAM,> 10h
+340,Netherlands,LATAM,> 10h
+341,Finland,LATAM,> 10h
+342,Norway,LATAM,> 10h
+343,Sweden,LATAM,> 10h
+344,Croatia,LATAM,> 10h
+345,USA,Europe,6 to 10h
+346,Canada,Europe,6 to 10h
+347,Mexico,Europe,> 10h
+348,Brazil,Europe,> 10h
+349,Argentina,Europe,> 10h
+350,Dominican Republic,Europe,> 10h
+351,Peru,Europe,> 10h
+352,Cuba,Europe,> 10h
+353,Iceland,Europe,< 3h
+354,"UK, Ireland",Europe,< 3h
+355,Denmark,Europe,< 3h
+356,France,Europe,< 3h
+357,Spain,Europe,< 3h
+358,Portugal,Europe,< 3h
+359,Italy,Europe,< 3h
+360,Greece,Europe,< 3h
+361,Czech Republic,Europe,< 3h
+362,Belgium,Europe,< 3h
+363,Turkey,Europe,3 to 6h
+364,Jordan,Europe,3 to 6h
+365,U.A.E,Europe,3 to 6h
+366,Egypt,Europe,3 to 6h
+367,Tanzania,Europe,6 to 10h
+368,Kenya,Europe,6 to 10h
+369,Seychelles,Europe,6 to 10h
+370,Madagascar,Europe,6 to 10h
+371,South Africa,Europe,6 to 10h
+372,Morocco,Europe,3 to 6h
+373,China,Europe,6 to 10h
+374,India,Europe,6 to 10h
+375,Nepal,Europe,> 10h
+376,Thailand,Europe,> 10h
+377,Vietnam,Europe,> 10h
+378,Australia,Europe,> 10h
+379,New Zealand,Europe,> 10h
+380,Japan,Europe,> 10h
+381,Indonesia,Europe,> 10h
+382,Cambodia,Europe,> 10h
+383,Netherlands,Europe,< 3h
+384,Finland,Europe,< 3h
+385,Norway,Europe,< 3h
+386,Sweden,Europe,< 3h
+387,Croatia,Europe,< 3h
+388,USA,Middle East,> 10h
+389,Canada,Middle East,> 10h
+390,Mexico,Middle East,> 10h
+391,Brazil,Middle East,> 10h
+392,Argentina,Middle East,> 10h
+393,Dominican Republic,Middle East,> 10h
+394,Peru,Middle East,> 10h
+395,Cuba,Middle East,> 10h
+396,Iceland,Middle East,3 to 6h
+397,"UK, Ireland",Middle East,3 to 6h
+398,Denmark,Middle East,3 to 6h
+399,France,Middle East,3 to 6h
+400,Spain,Middle East,3 to 6h
+401,Portugal,Middle East,3 to 6h
+402,Italy,Middle East,3 to 6h
+403,Greece,Middle East,3 to 6h
+404,Czech Republic,Middle East,3 to 6h
+405,Belgium,Middle East,3 to 6h
+406,Turkey,Middle East,< 3h
+407,Jordan,Middle East,< 3h
+408,U.A.E,Middle East,< 3h
+409,Egypt,Middle East,< 3h
+410,Tanzania,Middle East,3 to 6h
+411,Kenya,Middle East,3 to 6h
+412,Seychelles,Middle East,3 to 6h
+413,Madagascar,Middle East,3 to 6h
+414,South Africa,Middle East,3 to 6h
+415,Morocco,Middle East,3 to 6h
+416,China,Middle East,6 to 10h
+417,India,Middle East,6 to 10h
+418,Nepal,Middle East,6 to 10h
+419,Thailand,Middle East,6 to 10h
+420,Vietnam,Middle East,6 to 10h
+421,Australia,Middle East,> 10h
+422,New Zealand,Middle East,> 10h
+423,Japan,Middle East,6 to 10h
+424,Indonesia,Middle East,6 to 10h
+425,Cambodia,Middle East,6 to 10h
+426,Netherlands,Middle East,3 to 6h
+427,Finland,Middle East,3 to 6h
+428,Norway,Middle East,3 to 6h
+429,Sweden,Middle East,3 to 6h
+430,Croatia,Middle East,3 to 6h
+431,USA,Africa,> 10h
+432,Canada,Africa,> 10h
+433,Mexico,Africa,> 10h
+434,Brazil,Africa,> 10h
+435,Argentina,Africa,> 10h
+436,Dominican Republic,Africa,> 10h
+437,Peru,Africa,> 10h
+438,Cuba,Africa,> 10h
+439,Iceland,Africa,6 to 10h
+440,"UK, Ireland",Africa,6 to 10h
+441,Denmark,Africa,6 to 10h
+442,France,Africa,6 to 10h
+443,Spain,Africa,6 to 10h
+444,Portugal,Africa,6 to 10h
+445,Italy,Africa,6 to 10h
+446,Greece,Africa,6 to 10h
+447,Czech Republic,Africa,6 to 10h
+448,Belgium,Africa,6 to 10h
+449,Turkey,Africa,3 to 6h
+450,Jordan,Africa,3 to 6h
+451,U.A.E,Africa,3 to 6h
+452,Egypt,Africa,3 to 6h
+453,Tanzania,Africa,< 3h
+454,Kenya,Africa,< 3h
+455,Seychelles,Africa,< 3h
+456,Madagascar,Africa,< 3h
+457,South Africa,Africa,< 3h
+458,Morocco,Africa,< 3h
+459,China,Africa,> 10h
+460,India,Africa,6 to 10h
+461,Nepal,Africa,> 10h
+462,Thailand,Africa,6 to 10h
+463,Vietnam,Africa,6 to 10h
+464,Australia,Africa,6 to 10h
+465,New Zealand,Africa,6 to 10h
+466,Japan,Africa,6 to 10h
+467,Indonesia,Africa,6 to 10h
+468,Cambodia,Africa,6 to 10h
+469,Netherlands,Africa,6 to 10h
+470,Finland,Africa,6 to 10h
+471,Norway,Africa,6 to 10h
+472,Sweden,Africa,6 to 10h
+473,Croatia,Africa,6 to 10h
+474,USA,Asia,> 10h
+475,Canada,Asia,> 10h
+476,Mexico,Asia,> 10h
+477,Brazil,Asia,> 10h
+478,Argentina,Asia,> 10h
+479,Dominican Republic,Asia,> 10h
+480,Peru,Asia,> 10h
+481,Cuba,Asia,> 10h
+482,Iceland,Asia,6 to 10h
+483,"UK, Ireland",Asia,6 to 10h
+484,Denmark,Asia,6 to 10h
+485,France,Asia,6 to 10h
+486,Spain,Asia,6 to 10h
+487,Portugal,Asia,6 to 10h
+488,Italy,Asia,6 to 10h
+489,Greece,Asia,6 to 10h
+490,Czech Republic,Asia,6 to 10h
+491,Belgium,Asia,6 to 10h
+492,Turkey,Asia,6 to 10h
+493,Jordan,Asia,6 to 10h
+494,U.A.E,Asia,6 to 10h
+495,Egypt,Asia,6 to 10h
+496,Tanzania,Asia,> 10h
+497,Kenya,Asia,> 10h
+498,Seychelles,Asia,> 10h
+499,Madagascar,Asia,> 10h
+500,South Africa,Asia,> 10h
+501,Morocco,Asia,> 10h
+502,China,Asia,< 3h
+503,India,Asia,< 3h
+504,Nepal,Asia,< 3h
+505,Thailand,Asia,3 to 6h
+506,Vietnam,Asia,3 to 6h
+507,Australia,Asia,3 to 6h
+508,New Zealand,Asia,3 to 6h
+509,Japan,Asia,3 to 6h
+510,Indonesia,Asia,3 to 6h
+511,Cambodia,Asia,3 to 6h
+512,Netherlands,Asia,6 to 10h
+513,Finland,Asia,6 to 10h
+514,Norway,Asia,6 to 10h
+515,Sweden,Asia,6 to 10h
+516,Croatia,Asia,6 to 10h
+517,USA,South-east Asia,> 10h
+518,Canada,South-east Asia,> 10h
+519,Mexico,South-east Asia,> 10h
+520,Brazil,South-east Asia,> 10h
+521,Argentina,South-east Asia,> 10h
+522,Dominican Republic,South-east Asia,> 10h
+523,Peru,South-east Asia,> 10h
+524,Cuba,South-east Asia,> 10h
+525,Iceland,South-east Asia,> 10h
+526,"UK, Ireland",South-east Asia,> 10h
+527,Denmark,South-east Asia,> 10h
+528,France,South-east Asia,> 10h
+529,Spain,South-east Asia,> 10h
+530,Portugal,South-east Asia,> 10h
+531,Italy,South-east Asia,> 10h
+532,Greece,South-east Asia,> 10h
+533,Czech Republic,South-east Asia,> 10h
+534,Belgium,South-east Asia,> 10h
+535,Turkey,South-east Asia,6 to 10h
+536,Jordan,South-east Asia,6 to 10h
+537,U.A.E,South-east Asia,6 to 10h
+538,Egypt,South-east Asia,6 to 10h
+539,Tanzania,South-east Asia,6 to 10h
+540,Kenya,South-east Asia,6 to 10h
+541,Seychelles,South-east Asia,6 to 10h
+542,Madagascar,South-east Asia,6 to 10h
+543,South Africa,South-east Asia,6 to 10h
+544,Morocco,South-east Asia,6 to 10h
+545,China,South-east Asia,3 to 6h
+546,India,South-east Asia,3 to 6h
+547,Nepal,South-east Asia,3 to 6h
+548,Thailand,South-east Asia,< 3h
+549,Vietnam,South-east Asia,< 3h
+550,Australia,South-east Asia,> 10h
+551,New Zealand,South-east Asia,> 10h
+552,Japan,South-east Asia,< 3h
+553,Indonesia,South-east Asia,< 3h
+554,Cambodia,South-east Asia,< 3h
+555,Netherlands,South-east Asia,> 10h
+556,Finland,South-east Asia,> 10h
+557,Norway,South-east Asia,> 10h
+558,Sweden,South-east Asia,> 10h
+559,Croatia,South-east Asia,> 10h
+560,USA,ANZ,> 10h
+561,Canada,ANZ,> 10h
+562,Mexico,ANZ,> 10h
+563,Brazil,ANZ,> 10h
+564,Argentina,ANZ,> 10h
+565,Dominican Republic,ANZ,> 10h
+566,Peru,ANZ,> 10h
+567,Cuba,ANZ,> 10h
+568,Iceland,ANZ,> 10h
+569,"UK, Ireland",ANZ,> 10h
+570,Denmark,ANZ,> 10h
+571,France,ANZ,> 10h
+572,Spain,ANZ,> 10h
+573,Portugal,ANZ,> 10h
+574,Italy,ANZ,> 10h
+575,Greece,ANZ,> 10h
+576,Czech Republic,ANZ,> 10h
+577,Belgium,ANZ,> 10h
+578,Turkey,ANZ,> 10h
+579,Jordan,ANZ,> 10h
+580,U.A.E,ANZ,> 10h
+581,Egypt,ANZ,> 10h
+582,Tanzania,ANZ,> 10h
+583,Kenya,ANZ,> 10h
+584,Seychelles,ANZ,> 10h
+585,Madagascar,ANZ,> 10h
+586,South Africa,ANZ,> 10h
+587,Morocco,ANZ,> 10h
+588,China,ANZ,> 10h
+589,India,ANZ,> 10h
+590,Nepal,ANZ,> 10h
+591,Thailand,ANZ,> 10h
+592,Vietnam,ANZ,> 10h
+593,Australia,ANZ,< 3h
+594,New Zealand,ANZ,< 3h
+595,Japan,ANZ,> 10h
+596,Indonesia,ANZ,> 10h
+597,Cambodia,ANZ,> 10h
+598,Netherlands,ANZ,> 10h
+599,Finland,ANZ,> 10h
+600,Norway,ANZ,> 10h
+601,Sweden,ANZ,> 10h
+602,Croatia,ANZ,> 10h

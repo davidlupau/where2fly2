@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Search results
+{% endblock %}
+
+{% block main %}
+<h1>Where are you going to fly to?</h1><br>
+  <h3 style="text-align:center">The countries below meet your criteria:</h3><br>
+    <!-- Display search results from travel.db via a loop -->
+    <ul class="list-group" style="width:20%;margin-left:auto;margin-right:auto;">
+      {% for countries in countries %}
+      <li  class="list-group-item" style="text-align:center">{{ countries["country_name"] }}</li>
+      {% endfor %}
+    </ul><br>
+    <p>Get <a href="countries">more details</a> on a specific country.</p>
+    <p>Are you curious about what the weather will look like?<br> Get <a href="weather">more information</a> about the weather.</p>
+    <p>Or make a new <a href="search">search</a></p>
+  {% endblock %}

@@ -1,0 +1,859 @@
+id,country_name,type,month
+1,Argentina,snow,jul
+2,Argentina,snow,jun
+3,Argentina,history,jan
+4,Argentina,history,jan
+5,Argentina,history,jan
+6,Argentina,history,nov
+7,Argentina,history,dec
+8,Argentina,nature,jan
+9,Argentina,nature,feb
+10,Argentina,nature,mar
+11,Argentina,nature,nov
+12,Argentina,nature,dec
+13,Argentina,culture,jan
+14,Argentina,culture,feb
+15,Argentina,culture,mar
+16,Argentina,culture,nov
+17,Argentina,culture,dec
+18,Australia,city_break,apr
+19,Australia,culture,apr
+20,Australia,history,apr
+21,Australia,nature,apr
+22,Australia,beach,apr
+23,Australia,city_break,sep
+24,Australia,culture,sep
+25,Australia,history,sep
+26,Australia,nature,sep
+27,Australia,beach,sep
+28,Australia,city_break,oct
+29,Australia,culture,oct
+30,Australia,history,oct
+31,Australia,nature,oct
+32,Australia,beach,oct
+33,Belgium,city_break,may
+34,Belgium,culture,may
+35,Belgium,history,may
+36,Belgium,city_break,jun
+37,Belgium,culture,jun
+38,Belgium,history,jun
+39,Belgium,city_break,jul
+40,Belgium,culture,jul
+41,Belgium,history,jul
+42,Belgium,city_break,aug
+43,Belgium,culture,aug
+44,Belgium,history,aug
+45,Belgium,city_break,sep
+46,Belgium,culture,sep
+47,Belgium,history,sep
+48,Brazil,history,jun
+49,Brazil,nature,jun
+50,Brazil,beach,jul
+51,Brazil,history,jul
+52,Brazil,nature,jul
+53,Brazil,beach,aug
+54,Brazil,history,aug
+55,Brazil,nature,aug
+56,Brazil,beach,sep
+57,Brazil,history,sep
+58,Brazil,nature,sep
+59,Brazil,beach,oct
+60,Brazil,history,oct
+61,Brazil,nature,oct
+62,Brazil,beach,jun
+63,Cambodia,culture,dec
+64,Cambodia,history,dec
+65,Cambodia,nature,dec
+66,Cambodia,beach,dec
+67,Cambodia,culture,jan
+68,Cambodia,history,jan
+69,Cambodia,nature,jan
+70,Cambodia,beach,jan
+71,Cambodia,culture,feb
+72,Cambodia,history,feb
+73,Cambodia,nature,feb
+74,Cambodia,beach,feb
+75,Cambodia,culture,nov
+76,Cambodia,history,nov
+77,Cambodia,nature,nov
+78,Cambodia,beach,nov
+79,Canada,city_break,may
+80,Canada,culture,may
+81,Canada,history,may
+82,Canada,nature,may
+83,Canada,mountain,may
+84,Canada,snow,nov
+85,Canada,snow,dec
+86,Canada,snow,jan
+87,Canada,snow,feb
+88,Canada,nature,dec
+89,Canada,nature,feb
+90,Canada,nature,jan
+91,Canada,nature,jun
+92,Canada,nature,jul
+93,Canada,city_break,aug
+94,Canada,city_break,sep
+95,Canada,city_break,oct
+96,Canada,city_break,jun
+97,Canada,city_break,jul
+98,Canada,culture,aug
+99,Canada,culture,sep
+100,Canada,culture,oct
+101,Canada,culture,jun
+102,Canada,culture,jul
+103,Canada,mountain,aug
+104,Canada,mountain,sep
+105,Canada,mountain,oct
+106,Canada,mountain,jun
+107,Chine,culture,apr
+108,Chine,history,apr
+109,Chine,nature,apr
+110,Chine,beach,apr
+111,Chine,mountain,apr
+112,Chine,snow,nov
+113,Chine,beach,jul
+114,Chine,beach,aug
+115,Chine,beach,sep
+116,Chine,beach,may
+117,Chine,beach,jun
+118,Chine,beach,jul
+119,Chine,culture,aug
+120,Chine,culture,sep
+121,Chine,culture,oct
+122,Chine,culture,may
+123,Chine,culture,jun
+124,Chine,culture,jul
+125,Chine,culture,aug
+126,Chine,history,sep
+127,Chine,history,oct
+128,Chine,history,nov
+129,Chine,history,may
+130,Chine,history,jun
+131,Chine,history,jul
+132,Chine,history,aug
+133,Chine,nature,sep
+134,Chine,nature,oct
+135,Chine,nature,nov
+136,Chine,nature,may
+137,Chine,nature,jun
+138,Chine,nature,jul
+139,Chine,nature,aug
+140,Chine,snow,sep
+141,Chine,snow,oct
+142,Cuba,culture,dec
+143,Cuba,history,dec
+144,Cuba,beach,dec
+145,Cuba,mountain,dec
+146,Cuba,culture,nov
+147,Cuba,history,dec
+148,Cuba,beach,jan
+149,Cuba,mountain,jan
+150,Cuba,culture,jan
+151,Cuba,history,jan
+152,Cuba,beach,jan
+153,Cuba,mountain,feb
+154,Cuba,culture,feb
+155,Cuba,history,feb
+156,Cuba,beach,feb
+157,Cuba,mountain,mar
+158,Cuba,culture,mar
+159,Cuba,history,mar
+160,Cuba,beach,mar
+161,Cuba,mountain,apr
+162,Czech Republic,city_break,may
+163,Czech Republic,culture,may
+164,Czech Republic,history,may
+165,Czech Republic,mountain,may
+166,Czech Republic,snow,dec
+167,Czech Republic,snow,apr
+168,Czech Republic,snow,apr
+169,Czech Republic,city_break,apr
+170,Czech Republic,culture,dec
+171,Czech Republic,history,dec
+172,Czech Republic,mountain,jun
+173,Czech Republic,city_break,jun
+174,Czech Republic,culture,jun
+175,Czech Republic,history,jun
+176,Czech Republic,mountain,jul
+177,Czech Republic,city_break,jul
+178,Czech Republic,culture,jul
+179,Czech Republic,history,jul
+180,Czech Republic,mountain,aug
+181,Czech Republic,city_break,aug
+182,Czech Republic,culture,aug
+183,Czech Republic,history,aug
+184,Czech Republic,mountain,sep
+185,Denmark,city_break,may
+186,Denmark,culture,may
+187,Denmark,nature,may
+188,Denmark,history,may
+189,Denmark,snow,dec
+190,Denmark,snow,sep
+191,Denmark,snow,sep
+192,Denmark,city_break,sep
+193,Denmark,culture,jan
+194,Denmark,nature,feb
+195,Denmark,history,jun
+196,Denmark,city_break,jun
+197,Denmark,culture,jun
+198,Denmark,nature,jun
+199,Denmark,history,jul
+200,Denmark,city_break,jul
+201,Denmark,culture,jul
+202,Denmark,nature,jul
+203,Denmark,history,aug
+204,Dominican Republic,nature,dec
+205,Dominican Republic,beach,dec
+206,Dominican Republic,nature,feb
+207,Dominican Republic,nature,mar
+208,Dominican Republic,nature,apr
+209,Dominican Republic,nature,jan
+210,Dominican Republic,beach,feb
+211,Dominican Republic,beach,mar
+212,Dominican Republic,beach,apr
+213,Dominican Republic,beach,jan
+214,Egypt,history,dec
+215,Egypt,history,feb
+216,Egypt,history,jan
+217,Egypt,history,nov
+218,Egypt,nature,dec
+219,Egypt,nature,feb
+220,Egypt,nature,jan
+221,Egypt,nature,nov
+222,Egypt,beach,dec
+223,Egypt,beach,feb
+224,Egypt,beach,jan
+225,Egypt,beach,nov
+226,Finland,city_break,jun
+227,Finland,culture,jun
+228,Finland,nature,jun
+229,Finland,history,jun
+230,Finland,snow,nov
+231,Finland,snow,dec
+232,Finland,snow,jan
+233,Finland,snow,feb
+234,Finland,city_break,jul
+235,Finland,culture,jul
+236,Finland,nature,jul
+237,Finland,history,jul
+238,Finland,city_break,aug
+239,Finland,culture,aug
+240,Finland,nature,aug
+241,Finland,history,aug
+242,France,city_break,apr
+243,France,culture,apr
+244,France,history,apr
+245,France,nature,apr
+246,France,beach,jun
+247,France,mountain,apr
+248,France,snow,dec
+249,France,beach,jul
+250,France,beach,aug
+251,France,beach,sep
+252,France,snow,jan
+253,France,snow,feb
+254,France,snow,mar
+255,France,city_break,may
+256,France,city_break,jun
+257,France,city_break,sep
+258,France,culture,may
+259,France,culture,jun
+260,France,culture,sep
+261,France,history,may
+262,France,history,jun
+263,France,history,sep
+264,France,nature,apr
+265,France,nature,may
+266,France,nature,jun
+267,France,nature,jul
+268,France,nature,aug
+269,France,nature,sep
+270,France,mountain,apr
+271,France,mountain,may
+272,France,mountain,jun
+273,France,mountain,jul
+274,France,mountain,aug
+275,France,mountain,sep
+276,Greece,culture,may
+277,Greece,history,may
+278,Greece,nature,may
+279,Greece,beach,may
+280,Greece,beach,jun
+281,Greece,beach,jul
+282,Greece,beach,aug
+283,Greece,beach,sep
+284,Greece,nature,jun
+285,Greece,nature,jul
+286,Greece,nature,aug
+287,Greece,nature,sep
+288,Greece,culture,jun
+289,Greece,history,jun
+290,Greece,culture,sep
+291,Greece,history,sep
+292,Greece,culture,oct
+293,Greece,history,oct
+294,Greece,culture,apr
+295,Greece,history,apr
+296,Greece,city_break,apr
+297,Greece,city_break,may
+298,Greece,city_break,jun
+299,Greece,city_break,sep
+300,Greece,city_break,oct
+301,Iceland,nature,jun
+302,Iceland,snow,dec
+303,Iceland,snow,jan
+304,Iceland,snow,feb
+305,Iceland,nature,jun
+306,Iceland,nature,jul
+307,Iceland,nature,aug
+308,India,culture,dec
+309,India,history,dec
+310,India,nature,dec
+311,India,beach,dec
+312,India,mountain,may
+313,India,snow,dec
+314,India,snow,jan
+315,India,snow,feb
+316,India,culture,jan
+317,India,history,jan
+318,India,nature,jan
+319,India,beach,jan
+320,India,culture,feb
+321,India,history,feb
+322,India,nature,feb
+323,India,beach,feb
+324,India,culture,mar
+325,India,history,mar
+326,India,nature,mar
+327,India,beach,mar
+328,India,mountain,jun
+329,India,mountain,jul
+330,India,mountain,aug
+331,India,mountain,sep
+332,Indonesia,culture,may
+333,Indonesia,history,may
+334,Indonesia,nature,may
+335,Indonesia,beach,may
+336,Indonesia,culture,jun
+337,Indonesia,culture,jul
+338,Indonesia,culture,aug
+339,Indonesia,culture,sep
+340,Indonesia,culture,oct
+341,Indonesia,history,jun
+342,Indonesia,history,jul
+343,Indonesia,history,aug
+344,Indonesia,history,sep
+345,Indonesia,history,oct
+346,Indonesia,nature,jun
+347,Indonesia,nature,jul
+348,Indonesia,nature,aug
+349,Indonesia,nature,sep
+350,Indonesia,nature,oct
+351,Indonesia,beach,jun
+352,Indonesia,beach,jul
+353,Indonesia,beach,aug
+354,Indonesia,beach,sep
+355,Indonesia,beach,oct
+356,Italy,city_break,apr
+357,Italy,culture,apr
+358,Italy,history,apr
+359,Italy,nature,apr
+360,Italy,beach,apr
+361,Italy,mountain,apr
+362,Italy,snow,dec
+363,Italy,city_break,may
+364,Italy,city_break,jun
+365,Italy,city_break,sep
+366,Italy,culture,may
+367,Italy,culture,jun
+368,Italy,culture,sep
+369,Italy,history,may
+370,Italy,history,jun
+371,Italy,history,sep
+372,Italy,nature,may
+373,Italy,nature,jun
+374,Italy,nature,jul
+375,Italy,nature,aug
+376,Italy,nature,sep
+377,Italy,beach,may
+378,Italy,beach,jun
+379,Italy,beach,jul
+380,Italy,beach,aug
+381,Italy,beach,sep
+382,Italy,mountain,may
+383,Italy,mountain,jun
+384,Italy,mountain,jul
+385,Italy,mountain,aug
+386,Italy,mountain,sep
+387,Italy,snow,jan
+388,Italy,snow,feb
+389,Japan,city_break,mar
+390,Japan,culture,mar
+391,Japan,history,mar
+392,Japan,nature,mar
+393,Japan,beach,jun
+394,Japan,mountain,mar
+395,Japan,snow,dec
+396,Japan,snow,jan
+397,Japan,snow,feb
+398,Japan,snow,mar
+399,Japan,beach,jul
+400,Japan,beach,aug
+401,Japan,beach,sep
+402,Japan,city_break,apr
+403,Japan,city_break,may
+404,Japan,city_break,sep
+405,Japan,city_break,oct
+406,Japan,city_break,nov
+407,Japan,culture,apr
+408,Japan,culture,may
+409,Japan,culture,sep
+410,Japan,culture,oct
+411,Japan,culture,nov
+412,Japan,history,apr
+413,Japan,history,may
+414,Japan,history,sep
+415,Japan,history,oct
+416,Japan,history,nov
+417,Japan,nature,apr
+418,Japan,nature,may
+419,Japan,nature,sep
+420,Japan,nature,oct
+421,Japan,nature,nov
+422,Japan,mountain,apr
+423,Japan,mountain,may
+424,Japan,mountain,sep
+425,Japan,mountain,oct
+426,Japan,mountain,nov
+427,Jordan,history,dec
+428,Jordan,culture,dec
+429,Jordan,history,feb
+430,Jordan,culture,feb
+431,Jordan,history,jan
+432,Jordan,culture,jan
+433,Jordan,history,nov
+434,Jordan,culture,nov
+435,Kenya,nature,aug
+436,Kenya,beach,aug
+437,Kenya,mountain,aug
+438,Kenya,nature,jul
+439,Kenya,beach,jul
+440,Kenya,mountain,jul
+441,Kenya,nature,jun
+442,Kenya,beach,jun
+443,Kenya,mountain,jun
+444,Kenya,nature,oct
+445,Kenya,beach,oct
+446,Kenya,mountain,oct
+447,Kenya,nature,sep
+448,Kenya,beach,sep
+449,Kenya,mountain,sep
+450,Madagascar,history,aug
+451,Madagascar,nature,aug
+452,Madagascar,beach,aug
+453,Madagascar,history,jul
+454,Madagascar,nature,jul
+455,Madagascar,beach,jul
+456,Madagascar,history,jun
+457,Madagascar,nature,jun
+458,Madagascar,beach,jun
+459,Madagascar,history,oct
+460,Madagascar,nature,oct
+461,Madagascar,beach,oct
+462,Madagascar,history,sep
+463,Madagascar,nature,sep
+464,Madagascar,beach,sep
+465,Mexico,history,dec
+466,Mexico,nature,dec
+467,Mexico,beach,dec
+468,Mexico,mountain,dec
+469,Mexico,history,jan
+470,Mexico,nature,jan
+471,Mexico,beach,jan
+472,Mexico,mountain,jan
+473,Mexico,history,feb
+474,Mexico,nature,feb
+475,Mexico,beach,feb
+476,Mexico,mountain,feb
+477,Mexico,history,mar
+478,Mexico,nature,mar
+479,Mexico,beach,mar
+480,Mexico,mountain,mar
+481,Mexico,history,apr
+482,Mexico,nature,apr
+483,Mexico,beach,apr
+484,Mexico,mountain,apr
+485,Morocco,culture,dec
+486,Morocco,history,dec
+487,Morocco,nature,dec
+488,Morocco,beach,dec
+489,Morocco,mountain,dec
+490,Morocco,culture,feb
+491,Morocco,history,feb
+492,Morocco,nature,feb
+493,Morocco,beach,feb
+494,Morocco,mountain,feb
+495,Morocco,culture,jan
+496,Morocco,history,jan
+497,Morocco,nature,jan
+498,Morocco,beach,jan
+499,Morocco,mountain,jan
+500,Morocco,culture,nov
+501,Morocco,history,nov
+502,Morocco,nature,nov
+503,Morocco,beach,nov
+504,Morocco,mountain,nov
+505,Nepal,culture,jan
+506,Nepal,nature,jan
+507,Nepal,mountain,oct
+508,Nepal,snow,dec
+509,Nepal,snow,jan
+510,Nepal,snow,feb
+511,Nepal,culture,feb
+512,Nepal,culture,mar
+513,Nepal,culture,oct
+514,Nepal,culture,nov
+515,Nepal,culture,dec
+516,Nepal,nature,feb
+517,Nepal,nature,mar
+518,Nepal,nature,oct
+519,Nepal,nature,nov
+520,Nepal,nature,dec
+521,Nepal,mountain,mar
+522,Nepal,mountain,nov
+523,Netherlands,city_break,may
+524,Netherlands,culture,may
+525,Netherlands,history,may
+526,Netherlands,city_break,jun
+527,Netherlands,city_break,jul
+528,Netherlands,city_break,aug
+529,Netherlands,city_break,sep
+530,Netherlands,culture,jun
+531,Netherlands,culture,jul
+532,Netherlands,culture,aug
+533,Netherlands,culture,sep
+534,Netherlands,history,jun
+535,Netherlands,history,jul
+536,Netherlands,history,aug
+537,Netherlands,history,sep
+538,New Zealand,culture,jan
+539,New Zealand,history,jan
+540,New Zealand,nature,jan
+541,New Zealand,beach,jan
+542,New Zealand,mountain,jan
+543,New Zealand,snow,jun
+544,New Zealand,snow,jul
+545,New Zealand,snow,aug
+546,New Zealand,snow,sep
+547,New Zealand,snow,oct
+548,New Zealand,beach,feb
+549,New Zealand,beach,mar
+550,New Zealand,culture,feb
+551,New Zealand,culture,mar
+552,New Zealand,culture,oct
+553,New Zealand,culture,nov
+554,New Zealand,culture,dec
+555,New Zealand,history,feb
+556,New Zealand,history,mar
+557,New Zealand,history,oct
+558,New Zealand,history,nov
+559,New Zealand,history,dec
+560,New Zealand,nature,feb
+561,New Zealand,nature,mar
+562,New Zealand,nature,oct
+563,New Zealand,nature,nov
+564,New Zealand,nature,dec
+565,New Zealand,mountain,feb
+566,New Zealand,mountain,mar
+567,New Zealand,mountain,oct
+568,New Zealand,mountain,nov
+569,New Zealand,mountain,dec
+570,Norway,snow,dec
+571,Norway,snow,jan
+572,Norway,snow,feb
+573,Norway,snow,mar
+574,Norway,snow,apr
+575,Norway,culture,jun
+576,Norway,culture,jul
+577,Norway,culture,aug
+578,Norway,nature,jun
+579,Norway,nature,jul
+580,Norway,nature,aug
+581,Norway,history,jun
+582,Norway,history,jul
+583,Norway,history,aug
+584,Norway,city_break,jun
+585,Norway,city_break,jul
+586,Norway,city_break,aug
+587,Peru,culture,may
+588,Peru,history,may
+589,Peru,mountain,may
+590,Peru,beach,dec
+591,Peru,beach,jan
+592,Peru,beach,feb
+593,Peru,beach,mar
+594,Peru,culture,jun
+595,Peru,culture,jul
+596,Peru,culture,aug
+597,Peru,culture,sep
+598,Peru,history,jun
+599,Peru,history,jul
+600,Peru,history,aug
+601,Peru,history,sep
+602,Peru,mountain,jun
+603,Peru,mountain,jul
+604,Peru,mountain,aug
+605,Peru,mountain,sep
+606,Portugal,city_break,apr
+607,Portugal,culture,apr
+608,Portugal,history,apr
+609,Portugal,nature,apr
+610,Portugal,beach,jun
+611,Portugal,mountain,apr
+612,Portugal,beach,jul
+613,Portugal,beach,aug
+614,Portugal,beach,sep
+615,Portugal,city_break,may
+616,Portugal,city_break,jun
+617,Portugal,city_break,jul
+618,Portugal,city_break,aug
+619,Portugal,city_break,sep
+620,Portugal,culture,may
+621,Portugal,culture,jun
+622,Portugal,culture,jul
+623,Portugal,culture,aug
+624,Portugal,culture,sep
+625,Portugal,history,may
+626,Portugal,history,jun
+627,Portugal,history,jul
+628,Portugal,history,aug
+629,Portugal,history,sep
+630,Portugal,nature,may
+631,Portugal,nature,jun
+632,Portugal,nature,jul
+633,Portugal,nature,aug
+634,Portugal,nature,sep
+635,Portugal,mountain,may
+636,Portugal,mountain,jun
+637,Portugal,mountain,jul
+638,Portugal,mountain,aug
+639,Portugal,mountain,sep
+640,Seychelles,nature,jun
+641,Seychelles,beach,jun
+642,Seychelles,nature,may
+643,Seychelles,nature,nov
+644,Seychelles,nature,oct
+645,Seychelles,nature,sep
+646,Seychelles,beach,may
+647,Seychelles,beach,nov
+648,Seychelles,beach,oct
+649,Seychelles,beach,sep
+650,South Africa,culture,dec
+651,South Africa,history,dec
+652,South Africa,nature,dec
+653,South Africa,beach,dec
+654,South Africa,mountain,dec
+655,South Africa,culture,jan
+656,South Africa,history,jan
+657,South Africa,nature,jan
+658,South Africa,beach,jan
+659,South Africa,mountain,jan
+660,South Africa,culture,feb
+661,South Africa,history,feb
+662,South Africa,nature,feb
+663,South Africa,beach,feb
+664,South Africa,mountain,feb
+665,South Africa,culture,mar
+666,South Africa,history,mar
+667,South Africa,nature,mar
+668,South Africa,beach,mar
+669,South Africa,mountain,mar
+670,Spain,city_break,apr
+671,Spain,culture,apr
+672,Spain,history,apr
+673,Spain,nature,apr
+674,Spain,beach,jun
+675,Spain,mountain,apr
+676,Spain,snow,dec
+677,Spain,beach,jul
+678,Spain,beach,aug
+679,Spain,beach,sep
+680,Spain,snow,jan
+681,Spain,snow,feb
+682,Spain,snow,mar
+683,Spain,city_break,may
+684,Spain,city_break,jun
+685,Spain,city_break,jul
+686,Spain,city_break,aug
+687,Spain,city_break,sep
+688,Spain,culture,may
+689,Spain,culture,jun
+690,Spain,culture,jul
+691,Spain,culture,aug
+692,Spain,culture,sep
+693,Spain,history,may
+694,Spain,history,jun
+695,Spain,history,jul
+696,Spain,history,aug
+697,Spain,history,sep
+698,Spain,mountain,may
+699,Spain,mountain,jun
+700,Spain,mountain,jul
+701,Spain,mountain,aug
+702,Spain,mountain,sep
+703,Sweden,city_break,jun
+704,Sweden,culture,jun
+705,Sweden,nature,jun
+706,Sweden,history,jun
+707,Sweden,snow,dec
+708,Sweden,snow,jan
+709,Sweden,snow,feb
+710,Sweden,city_break,jul
+711,Sweden,culture,jul
+712,Sweden,nature,jul
+713,Sweden,history,jul
+714,Sweden,city_break,aug
+715,Sweden,culture,aug
+716,Sweden,nature,aug
+717,Sweden,history,aug
+718,Tanzania,nature,aug
+719,Tanzania,beach,aug
+720,Tanzania,mountain,aug
+721,Tanzania,nature,jul
+722,Tanzania,nature,jun
+723,Tanzania,nature,oct
+724,Tanzania,nature,sep
+725,Tanzania,beach,jul
+726,Tanzania,beach,jun
+727,Tanzania,beach,oct
+728,Tanzania,beach,sep
+729,Tanzania,mountain,jul
+730,Tanzania,mountain,jun
+731,Tanzania,mountain,oct
+732,Tanzania,mountain,sep
+733,Thailand,culture,dec
+734,Thailand,history,dec
+735,Thailand,nature,dec
+736,Thailand,beach,dec
+737,Thailand,culture,nov
+738,Thailand,history,nov
+739,Thailand,nature,nov
+740,Thailand,beach,nov
+741,Thailand,culture,jan
+742,Thailand,history,jan
+743,Thailand,nature,jan
+744,Thailand,beach,jan
+745,Thailand,culture,feb
+746,Thailand,history,feb
+747,Thailand,nature,feb
+748,Thailand,beach,feb
+749,Turkey,beach,jun
+750,Turkey,beach,jul
+751,Turkey,beach,aug
+752,Turkey,beach,sep
+753,Turkey,beach,oct
+754,Turkey,city_break,apr
+755,Turkey,city_break,may
+756,Turkey,city_break,sep
+757,Turkey,city_break,oct
+758,Turkey,culture,apr
+759,Turkey,culture,may
+760,Turkey,culture,sep
+761,Turkey,culture,oct
+762,Turkey,history,apr
+763,Turkey,history,may
+764,Turkey,history,sep
+765,Turkey,history,oct
+766,Turkey,nature,apr
+767,Turkey,nature,may
+768,Turkey,nature,sep
+769,Turkey,nature,oct
+770,U.A.E,beach,apr
+771,U.A.E,beach,may
+772,U.A.E,beach,jun
+773,U.A.E,beach,jul
+774,U.A.E,beach,aug
+775,U.A.E,beach,sep
+776,U.A.E,beach,oct
+777,U.A.E,beach,nov
+778,U.A.E,city_break,nov
+779,U.A.E,city_break,dec
+780,U.A.E,city_break,jan
+781,U.A.E,city_break,feb
+782,U.A.E,nature,nov
+783,U.A.E,nature,dec
+784,U.A.E,nature,jan
+785,U.A.E,nature,feb
+786,U.A.E,history,nov
+787,U.A.E,history,dec
+788,U.A.E,history,jan
+789,U.A.E,history,feb
+790,"UK, Ireland",city_break,may
+791,"UK, Ireland",city_break,jun
+792,"UK, Ireland",city_break,jul
+793,"UK, Ireland",city_break,aug
+794,"UK, Ireland",city_break,sep
+795,"UK, Ireland",culture,may
+796,"UK, Ireland",culture,jun
+797,"UK, Ireland",culture,jul
+798,"UK, Ireland",culture,aug
+799,"UK, Ireland",culture,sep
+800,"UK, Ireland",nature,may
+801,"UK, Ireland",nature,jun
+802,"UK, Ireland",nature,jul
+803,"UK, Ireland",nature,aug
+804,"UK, Ireland",nature,sep
+805,"UK, Ireland",history,may
+806,"UK, Ireland",history,jun
+807,"UK, Ireland",history,jul
+808,"UK, Ireland",history,aug
+809,"UK, Ireland",history,sep
+810,USA,snow,feb
+811,USA,snow,dec
+812,USA,snow,jan
+813,USA,city_break,may
+814,USA,city_break,jun
+815,USA,city_break,jul
+816,USA,city_break,aug
+817,USA,city_break,sep
+818,USA,culture,may
+819,USA,culture,jun
+820,USA,culture,jul
+821,USA,culture,aug
+822,USA,culture,sep
+823,USA,history,may
+824,USA,history,jun
+825,USA,history,jul
+826,USA,history,aug
+827,USA,history,sep
+828,USA,nature,may
+829,USA,nature,jun
+830,USA,nature,jul
+831,USA,nature,aug
+832,USA,nature,sep
+833,USA,beach,may
+834,USA,beach,jun
+835,USA,beach,jul
+836,USA,beach,aug
+837,USA,beach,sep
+838,USA,mountain,may
+839,USA,mountain,jun
+840,USA,mountain,jul
+841,USA,mountain,aug
+842,USA,mountain,sep
+843,Vietnam,culture,feb
+844,Vietnam,history,feb
+845,Vietnam,nature,feb
+846,Vietnam,beach,jan
+847,Vietnam,culture,jan
+848,Vietnam,history,feb
+849,Vietnam,nature,mar
+850,Vietnam,beach,nov
+851,Vietnam,culture,nov
+852,Vietnam,history,nov
+853,Vietnam,nature,nov
+854,Vietnam,beach,dec
+855,Vietnam,culture,dec
+856,Vietnam,history,dec
+857,Vietnam,nature,dec
+858,Vietnam,beach,feb

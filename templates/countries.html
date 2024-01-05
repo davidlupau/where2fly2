@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Country details
+{% endblock %}
+
+{% block main %}
+<h1>Prepare your trip!</h1>
+    <h3><br>You have a destination in mind but you would like to have more details about the country?</h3><br>
+        <p>Select a country in the drop-down menu. You will get more details about the country you selected that will hopefully help you to prepare your trip.</p><br>
+
+        <!-- Form to get user's input -->
+            <form action="/countries" method="post">
+                <div class="form-group">
+                    <select name="country_list" id="country_list">
+                        <option selected>Select a country</option>
+                        {% for country_list in country_list %}
+                        <option>{{ country_list["country_name"] }}</option>
+                        {% endfor %}
+                    </select>
+                </div><br>
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form><br>
+
+{% endblock %}

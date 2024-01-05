@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Weather
+{% endblock %}
+
+{% block main %}
+<h1>What's the weather like?</h1>
+    <h3><br>You have a destination in mind but you would like to know if you should take t-shirts or pullovers?<br>We got your covered!</h3><br>
+        <p>Select a country in the drop-down menu. You will get the monthly average temperatures in Celsius (Fahrenheit) for the main cities in the country you selected as well as daily number of sunshine and the surface temperature of the sea.</p>
+
+            <!-- Form to get user's input -->
+            <form action="/weather" method="post">
+                <div class="form-group">
+                    <select name="country_list" id="country_list">
+                        <option selected>Select a country</option>
+                        {% for country_list in country_list %}
+                        <option>{{ country_list["country_name"] }}</option>
+                        {% endfor %}
+                    </select>
+                </div><br>
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form><br>
+
+{% endblock %}

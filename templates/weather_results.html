@@ -1,0 +1,159 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Weather
+{% endblock %}
+
+{% block main %}
+<p><img src="static/img/flags/long_flag_{{ country }}.jpeg" class="img-fluid"></p><br>
+<h1>What's the weather like in {{ country }}?</h1>
+  <h2></h2><br><p style="text-align:center;"><img src="static/img/icons/icon_temperature.png" width="72" height="60"></p>
+  <h2>Average temperature* of cities in Celsius (Fahrenheit) for the main cities in </h2><h4><b><u>{{ country }}</u></b></h4>
+
+    <!-- Getting data from temperatures table in travel.db for the country selected by user. Display as a loop -->
+    <table class="table table-striped" style="width:70%;margin-left:auto;margin-right:auto;">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">City</th>
+            <th scope="col">Jan</th>
+            <th scope="col">Feb</th>
+            <th scope="col">Mar</th>
+            <th scope="col">Apr</th>
+            <th scope="col">May</th>
+            <th scope="col">Jun</th>
+            <th scope="col">Jul</th>
+            <th scope="col">Aug</th>
+            <th scope="col">Sept</th>
+            <th scope="col">Oct</th>
+            <th scope="col">Nov</th>
+            <th scope="col">Dec</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        {% for temperatures in temperatures %}
+        <tr>
+            <td><b>{{ temperatures["city"] }}</b></td>
+            <td>{{ temperatures["jan"] }}</td>
+            <td>{{ temperatures["feb"] }}</td>
+            <td>{{ temperatures["mar"] }}</td>
+            <td>{{ temperatures["apr"] }}</td>
+            <td>{{ temperatures["may"] }}</td>
+            <td>{{ temperatures["jun"] }}</td>
+            <td>{{ temperatures["jul"] }}</td>
+            <td>{{ temperatures["aug"] }}</td>
+            <td>{{ temperatures["sep"] }}</td>
+            <td>{{ temperatures["oct"] }}</td>
+            <td>{{ temperatures["nov"] }}</td>
+            <td>{{ temperatures["dec"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+<br><br>
+
+  <!-- Getting data from sunshine table in travel.db for the country selected by user. Display as a loop -->
+    <p style="text-align:center;"><img src="static/img/icons/icon_sun.png" width="72" height="65"></p>
+      <h2>Number of daily sunshine hours of cities for the main cities in </h2><h4><b><u>{{ country }}</u></b></h4>
+
+      <table class="table table-striped" style="width:70%;margin-left:auto;margin-right:auto;">
+          <thead>
+            <tr class="table-success">
+              <th scope="col">City</th>
+              <th scope="col">Jan</th>
+              <th scope="col">Feb</th>
+              <th scope="col">Mar</th>
+              <th scope="col">Apr</th>
+              <th scope="col">May</th>
+              <th scope="col">Jun</th>
+              <th scope="col">Jul</th>
+              <th scope="col">Aug</th>
+              <th scope="col">Sep</th>
+              <th scope="col">Oct</th>
+              <th scope="col">Nov</th>
+              <th scope="col">Dec</th>
+              <th scope="col">Annual</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for sunshine in sunshine %}
+          <tr>
+              <td><b>{{ sunshine["city"] }}</b></td>
+              <td>{{ sunshine["jan"] }}</td>
+              <td>{{ sunshine["feb"] }}</td>
+              <td>{{ sunshine["mar"] }}</td>
+              <td>{{ sunshine["apr"] }}</td>
+              <td>{{ sunshine["may"] }}</td>
+              <td>{{ sunshine["jun"] }}</td>
+              <td>{{ sunshine["jul"] }}</td>
+              <td>{{ sunshine["aug"] }}</td>
+              <td>{{ sunshine["sep"] }}</td>
+              <td>{{ sunshine["oct"] }}</td>
+              <td>{{ sunshine["nov"] }}</td>
+              <td>{{ sunshine["dec"] }}</td>
+              <td>{{ sunshine["annual"] }}</td>
+          </tr>
+          {% endfor %}
+
+      </table>
+
+      <br><br>
+
+    <!-- Getting data from sea table in travel.db for the country selected by user. Display as a loop -->
+    <p style="text-align:center;"><img src="static/img/icons/icon_sea.png" width="72" height="65"></p>
+      <h2>Surface monthly average sea temperature* in Celsius in </h2><h4><b><u>{{ country }}</u></b></h4>
+
+    <table class="table table-striped" style="width:70%;margin-left:auto;margin-right:auto;">
+        <thead>
+          <tr class="table-info">
+            <th scope="col">Place</th>
+            <th scope="col">Jan</th>
+            <th scope="col">Feb</th>
+            <th scope="col">Mar</th>
+            <th scope="col">Apr</th>
+            <th scope="col">May</th>
+            <th scope="col">Jun</th>
+            <th scope="col">Jul</th>
+            <th scope="col">Aug</th>
+            <th scope="col">Sep</th>
+            <th scope="col">Oct</th>
+            <th scope="col">Nov</th>
+            <th scope="col">Dec</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for sea in sea %}
+        <tr>
+            <td><b>{{ sea["city"] }}</b></td>
+            <td>{{ sea["jan"] }}</td>
+            <td>{{ sea["feb"] }}</td>
+            <td>{{ sea["mar"] }}</td>
+            <td>{{ sea["apr"] }}</td>
+            <td>{{ sea["may"] }}</td>
+            <td>{{ sea["jun"] }}</td>
+            <td>{{ sea["jul"] }}</td>
+            <td>{{ sea["aug"] }}</td>
+            <td>{{ sea["sep"] }}</td>
+            <td>{{ sea["oct"] }}</td>
+            <td>{{ sea["nov"] }}</td>
+            <td>{{ sea["dec"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br><br>
+
+  <!-- Code for converter from W3 Schools -->
+  <h3>*Temperature Converter</h3>
+    <p>Type a value in the Celsius field to convert the value to Fahrenheit:</p>
+    <p>
+      <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+    </p>
+    <div class="text-bg-light p-3" style="width:20%;margin-left:auto;margin-right:auto;">Fahrenheit: <span id="outputFahrenheit"></span></div>
+    <p></span></p>
+
+  <script>
+  function temperatureConverter(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputFahrenheit").innerHTML=(valNum*1.8)+32;
+  }
+  </script>
+{% endblock %}

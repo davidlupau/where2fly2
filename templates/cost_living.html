@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Cost of living
+{% endblock %}
+
+{% block main %}
+<h1>Cost of living index</h1><br>
+  <div style="width:80%;margin-left:auto;margin-right:auto;">
+    <p id="para1">These indices are relative to <b>New York City (NYC)</b>. Which means that for New York City, each index should be 100(%). If another city has, for example, rent index of 120, it means that on an average in that city rents are 20% more expensive than in New York City. If a city has rent index of 70, that means on average rent in that city is 30% less expensive than in New York City.</p>
+    <p id="para1"><b>Cost of Living Index (Excl. Rent)</b> is a relative indicator of consumer goods prices, including groceries, restaurants, transportation and utilities. Cost of Living Index does not include accommodation expenses such as rent or mortgage. If a city has a Cost of Living Index of 120, it means Numbeo has estimated it is 20% more expensive than New York (excluding rent).</p>
+    <p id="para1"><b>Rent Index</b> is an estimation of prices of renting apartments in the city compared to New York City. If Rent index is 80, Numbeo has estimated that price of rents in that city is on average 20% less than the price in New York.</p>
+    <p id="para1"><b>Groceries Index</b> is an estimation of grocery prices in the city compared to New York City. To calculate this section, Numbeo uses weights of items in the "Markets" section for each city.</p>
+    <p id="para1"><b>Restaurants Index</b> is a comparison of prices of meals and drinks in restaurants and bars compared to NYC.</p>
+    <p id="para1"><b>Cost of Living Plus Rent</b> Index is an estimation of consumer goods prices including rent comparing to New York City.</p>
+    <p id="para1"><b>Local Purchasing Power</b> shows relative purchasing power in buying goods and services in a given city for the average net salary in that city. If domestic purchasing power is 40, this means that the inhabitants of that city with an average salary can afford to buy on an average 60% less goods and services than New York City residents with an average salary.</p><br>
+  </div>
+  <div class="col" style="width:70%;margin-left:auto;margin-right:auto;">
+    <p>On this website, the index has been simplified into 5 ratings:</p>
+      <ul style="list-style: none;">
+        <li id="list1">$ => index under 40</li>
+        <li id="list1">$$ => 41 < index < 60</li>
+        <li id="list1">$$$ => 61 < index < 80</li>
+        <li id="list1">$$$$ => 81 < index < 94</li>
+        <li id="list1">$$$$$ => index 95 and above</li>
+      </ul>
+  </div>
+
+  <!-- Displaying via a loop cost of living data retrieved from cost_living table in travel.db -->
+  <div class="col">
+    <table class="table table-striped" style="width:70%;margin-left:auto;margin-right:auto;">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">Country</th>
+            <th scope="col">Cost of Living Index</th>
+            <th scope="col">Rent index</th>
+            <th scope="col">Cost of Living Plus Rent Index</th>
+            <th scope="col">Groceries Index</th>
+            <th scope="col">Restaurant Price Index</th>
+            <th scope="col">Local Purchasing Power Index</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for cost_living in cost_living %}
+            <tr>
+                <td><b>{{ cost_living["country_name"] }}</b></td>
+                <td class="table-primary">{{ cost_living["cost_living_index"] }}</td>
+                <td>{{ cost_living["rent_index"] }}</td>
+                <td>{{ cost_living["cost_living_plus"] }}</td>
+                <td>{{ cost_living["groceries_index"] }}</td>
+                <td>{{ cost_living["restaurant_index"] }}</td>
+                <td>{{ cost_living["local_purchasing"] }}</td>
+            {% endfor %}
+            </tr>
+        </tbody>
+    </table>
+  </div><br>
+    <h6>Data from <a href="https://www.worlddata.info/cost-of-living.php" target="_blank">World Data</a></h6>
+{% endblock %}

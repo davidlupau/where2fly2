@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Country details
+{% endblock %}
+
+{% block main %}
+<h1>Prepare your trip to <u>{{ country }}</u></h1>
+    <p><img src="static/img/pictures/picture_{{ country }}.jpeg" class="img-fluid"></p>
+    <h6>Image: © nationsonline.org</h6>
+  <h2>Here are some useful information </h2>
+
+<!-- Getting data from countries table in travel.db for the country selected by user -->
+{% for country_details in country_details %}
+<div class="container-sm"><p id="para1">{{ country_details["description"] }}</p>
+{% endfor %}
+</div>
+<!-- Loop to display data in the table -->
+  <table class="table table-striped" style="width:70%;margin-left:auto;margin-right:auto;">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col"></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for country_details in country_details %}
+      <tr class="table-info">
+        <td><img src="static/img/icons/icon_flag.png" width="48" height="40"></td>
+        <td><b>Flag</b></td>
+        <td><img src="static/img/flags/{{ country }}.gif" width="72" height="50">
+        </td>
+      </tr>
+      <tr class="table-light">
+          <td><img src="static/img/icons/icon_capital.png" width="48" height="40"></td>
+          <td><b>Capital city</b></td>
+          <td>{{ country_details["capital"] }}</td>
+      </tr>
+      <tr class="table-info">
+          <td><img src="static/img/icons/icon_population.png" width="48" height="40"></td>
+          <td><b>Population</b></td>
+          <td>{{ country_details["population"] }}</td>
+      </tr>
+      <tr class="table-light">
+          <td><img src="static/img/icons/icon_cost.png" width="48" height="40"></td>
+          <td><b>Cost of living*</b></td>
+          <td>{{ country_details["cost"] }}</td>
+      </tr>
+      <tr class="table-info">
+          <td><img src="static/img/icons/icon_currency.png" width="40" height="40"></td>
+          <td><b>Currency</b></td>
+          <td>{{ country_details["currency"] }}</td>
+      </tr>
+      <tr class="table-light">
+          <td><img src="static/img/icons/icon_language.png" width="48" height="40"></td>
+          <td><b>Language(s) spoken</b></td>
+          <td>{{ country_details["language"] }}</td>
+      </tr>
+      <tr class="table-info">
+          <td><img src="static/img/icons/icon_time_zone.png" width="40" height="40"></td>
+          <td><b>Time zone(s)</b></td>
+          <td>{{ country_details["time_zone"] }}</td>
+      </tr>
+      <tr class="table-light">
+          <td><img src="static/img/icons/icon_country_code.png" width="40" height="40"></td>
+          <td><b>Country dial-in code</b></td>
+          <td>{{ country_details["country_code"] }}</td>
+      </tr>
+      <tr class="table-info">
+        <td><img src="static/img/icons/icon_to_do.png" width="40" height="40"></td>
+        <td><b>Things to do/see in {{ country }}</b></td>
+        <td>{{ country_details["to_do"] }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+      </div>
+      <div class="col">
+        <h6 style="text-align:center">*Cost of living is an index calculated in nearly representative baskets of consumer goods. The reference index is NYC cost of living which is 100. That means that if a country has an index of 80, life is basically 20% cheaper than in NYC.</h6>
+          <p>There are 5 ratings:</p>
+            <ul>
+              <li style="text-align:left">$ => index under 40</li>
+              <li style="text-align:left">$$ => 41 < index < 60</li>
+              <li style="text-align:left">$$$ => 61 < index < 80</li>
+              <li style="text-align:left">$$$$ => 81 < index < 94</li>
+              <li style="text-align:left">$$$$$ => index 95 and above</li>
+            </ul>
+            <br>Learn more about <a href="cost_living">Cost Living Index</a></p>
+    </div>
+      <div class="col">
+      </div>
+    </div>
+  </div><br>
+
+  <h2>Map of {{ country }}</h2><br>
+    <p><img src="static/img/maps/map_{{ country }}.jpeg" class="img-fluid" width="70%"></p>
+    <h6>Image: © nationsonline.org</h6>
+{% endblock %}
