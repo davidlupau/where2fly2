@@ -1,6 +1,6 @@
 # WHERE2FLY2
 #### Context:
-I build this project in December 2022 as a final step of CS50 course from Harvard X. It was a 11-weeks online course introducing to computer science and programming. The focus was not on html and css which explains the basic design of the web application.
+I built this project in December 2022 as a final step of CS50 course from Harvard X. It was a 11-weeks online course introducing to computer science and programming. The focus was not on html and css which explains the basic design of the web application.
 #### Video Demo:  https://youtu.be/jr1GXIpdPq4
 #### Description:
 The project is a web application for people planning their holidays. The goal is to help undecided travelers to find their next destination. It is always a challenge to decide where we want to go for the next holiday and the bigger the family, the longer the discussions.
